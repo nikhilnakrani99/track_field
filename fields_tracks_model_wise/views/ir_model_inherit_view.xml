@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="ir_model_form_view_inherit" model="ir.ui.view">
+        <field name="model">ir.model</field>
+        <field name="inherit_id" ref="base.view_model_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='is_mail_blacklist']" position="after">
+                <field name="is_tracking_field"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
