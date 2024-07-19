@@ -11,7 +11,7 @@
     'name': 'Enable Tracking All Fields',
     'summary': 'Enable Tracking for all the Fields of model',
     'version': '15.0',
-    'author': 'Nikhil Nakrani',
+    'author': 'Nikhil Nakrani (Living Legend)',
     'category': 'Base',
     'license': 'LGPL-3',
     'depends': [
